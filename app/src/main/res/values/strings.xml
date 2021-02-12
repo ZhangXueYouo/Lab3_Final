@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="button_HM">Haitao Mao</string>
+    <string name="myprofilehm">MyProfileHM</string>
+    <string name="haitao_mao_TEXT">\n\nHaitao Mao</string>
+    <string name="homepage">HomePage</string>
+    <string name="Identity">Computer Science Student</string>
+    <string name="description">Paola Flores photo</string>
+    <string name="paolaflores">Paola Flores</string>
+    <string name="programdesc">Computing Science Student</string>
+    <string name="info">General information:   Age: 20  Favorite food: lasagna  Nationality: Salvadorian</string>
+    <string name="myDescription">I am a very outgoing person that loves to try new things and meet new people. I would like to travel a lot.</string>
+    <string name="b_homePage">Home Page</string>
+    <string name="app_name">My Profile</string>
+    <string name="text_name">JASLEEN BAINS</string>
+    <string name="text_program">Batchelor\'s in Computing Science</string>
+    <string name="program_text">Computing Science</string>
+    <string name="funfact">The funFact about me is,I am not very social person but once i get connected to a person i won\'t leave him or her to hell.</string>
+    <string name="hobbies">My Hobbies are painting, dancing, traveling and listening to music.</string>
+    <string name="button">Home</string>
+    <string name="haitao_mao">Haitao Mao</string>
+    <string name="jasleen_bains">Jasleen Bains</string>
+    <string name="paola_flores">Paola Flores</string>
+    <string name="profiles_main_page_group_b">Profiles\' main page Group B</string>
+    <string name="home">Home</string>
+    <string name="home_page">Home Page</string>
+    <string name="todo">TODO</string>
+
+</resources>

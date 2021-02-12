@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6F306FA8"
+    android:outlineSpotShadowColor="#00FFFFFF"
+    tools:context=".ActivityHM">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="419dp"
+        android:layout_height="163dp"
+        android:background="#C17373"
+        android:backgroundTint="#162357"
+        android:elegantTextHeight="false"
+        android:gravity="center_horizontal"
+        android:text="\n\nHaitao Mao"
+        android:textAlignment="gravity"
+        android:textColor="#FFFFFF"
+        android:textDirection="firstStrongLtr"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="382dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="2dp"
+        android:background="#2A65A5"
+        android:backgroundTint="#2A65A5"
+        android:gravity="center"
+        android:text="@string/Identity"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.536" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="167dp"
+
+        android:layout_height="130dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginBottom="1dp"
+
+
+        android:background="#9DAFBD"
+        android:elegantTextHeight="true"
+        android:gravity="top"
+        android:lineSpacingExtra="3sp"
+        android:linksClickable="false"
+        android:singleLine="false"
+        android:text="General Info: A male human\n lived 22 years.\nA pro MOBA games player (maybe)\nNationality: China"
+        android:textAlignment="gravity"
+        android:textColor="#171615"
+        android:textColorLink="#FFFFFF"
+        android:textSize="15.5sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901" />
+
+    <TextView
+
+        android:id="@+id/habits"
+        android:layout_width="176dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginBottom="4dp"
+        android:background="#9DAFBD"
+        android:elegantTextHeight="true"
+        android:gravity="top"
+        android:lineSpacingExtra="3sp"
+        android:text="I'm an introvert who is trying to be a people person due to curiosity."
+        android:textAlignment="gravity"
+        android:textColor="#171615"
+        android:textColorHint="#00FFFFFF"
+        android:textColorLink="#00FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.878" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="301dp"
+        android:layout_height="360dp"
+        android:adjustViewBounds="false"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        android:outlineAmbientShadowColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461"
+        app:srcCompat="@drawable/pich" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+
+        android:background="#00ffffff"
+        android:text="@string/myprofilehm"
+        android:textColor="#F6F0F0"
+        android:textColorLink="#00FFFFFF"
+        android:textDirection="firstStrong"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <ImageButton
+        android:id="@+id/backToMain"
+        android:layout_width="87dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:layerType="none"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998"
+        app:srcCompat="@drawable/flag_mao" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="5dp"
+        android:background="@null"
+        android:text="Home Page"
+        android:textColor="#3F51B5"
+        android:textColorHighlight="#F80808"
+        android:textColorHint="#F60909"
+        android:textColorLink="#ED0909"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/backToMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
